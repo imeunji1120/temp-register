@@ -1,0 +1,86 @@
+/* page.module.css */
+/* 부모 컨테이너 스타일링 */
+.conteiner {
+  font-family: 'Arial', sans-serif;
+  max-width: 500px;
+  margin: auto;
+  /* text-align: center; */
+}
+
+/* 버튼 스타일링 */
+.button {
+  background-color: #4CAF50; /* 녹색 배경 */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; /* 둥근 모서리 */
+}
+
+.button:hover {
+  background-color: #45a049; /* 호버시 더 진한 녹색 */
+}
+
+/* 선택창 스타일링 */
+.select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* 과일 이름 스타일링 */
+.fruits {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* 장바구니 스타일링 */
+.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ul li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul li button {
+  background-color: #ff4d4d; /* 빨간색 배경 */
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 8px; /* 둥근 모서리 */
+}
+
+.ul li button:hover {
+  background-color: #e60000; /* 호버시 더 진한 빨간색 */
+}
+
+/* 관리자 페이지 스타일링 */
+.h2 {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input[type="text"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}

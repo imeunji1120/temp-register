@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Nextjs 토이프로젝트 &nbsp;
+          은지의 Nextjs 토이프로젝트 &nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
